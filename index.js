@@ -8,10 +8,10 @@ const port = 3000;
 
 // Configure the database connection pool
 const pool = new Pool({
-    user: 'pgchar', //Your PostgreSQL username
+    user: 'postgres', //Your PostgreSQL username
     host: 'localhost',
     database: 'restaurants_db', //The database you created
-    password:'delichars', //Your PostgreSQL password
+    password:'postgres', //Your PostgreSQL password
     port: 5432,
 })
 
