@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('./app'); // Your Express app
+const app = require('./index'); // Your Express app
 const { Pool } = require('pg');
 
 // This pool will use environment variables in CI and fallback to defaults for local testing.
